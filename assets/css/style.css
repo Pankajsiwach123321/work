@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +7,20 @@
     list-style-type: none;
     text-decoration: none;
 }
+po
 
 .container {
-    max-width: 1400px;
+    max-width: 1159px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
+   
 }
 
 .bg-color {
-    /* min-height: 100vh;
-    background: var(--background-dark, #2F1893); */
+    min-height: 100vh;
+    background: var(--background-dark, #2F1893);
 
 }
 
@@ -128,7 +132,8 @@
     height: 60px;
     flex-shrink: 0;
     cursor: pointer;
-    
+    border: none;
+
 }
 
 .word {
@@ -156,6 +161,8 @@
     font-family: Poppins;
     line-height: 22px;
     letter-spacing: -0.2px;
+    padding-top: 32px;
+
 }
 
 .pl-500 {
@@ -186,6 +193,81 @@
     margin-left: auto;
     margin-right: auto;
 }
-.background{
+
+.background {
     background-color: #2F1893;
+}
+
+.max-width-607 {
+    display: flex;
+    max-width: 607px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 607px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.max-w {
+    width: 100%;
+}
+
+.border {
+    width: 350px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid var(--colors-white, #FFF);
+
+
+
+    font-size: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 18px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    background: transparent;
+    border: solid #5946A9
+
+}
+
+.padding-t {
+    padding-top: 73px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.pt-73 {
+    padding-top: 73px;
+
+}
+.padding-conatiner{
+    padding-left: 115px;
+    padding-right: 126px;
 }
